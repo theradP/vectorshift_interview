@@ -1,0 +1,42 @@
+# OS/metadata
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Python (backend)
+integrations_technical_assessment/backend/.venv/
+integrations_technical_assessment/backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Redis dump
+integrations_technical_assessment/dump.rdb
+
+# Node/React (frontend)
+integrations_technical_assessment/frontend/node_modules/
+integrations_technical_assessment/frontend/build/
+integrations_technical_assessment/frontend/.env
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test/coverage
+.coverage
+coverage/
+htmlcov/
+
+# Logs
+*.log
+
+
